@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding-left: 10px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+input {
+  width: 250px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  padding: 7px 9px;
+}
